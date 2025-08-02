@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Rapids</title>
+    <meta name="description"
+        content="Contact page for a whitewater rafting site. Includes company information, contact information">
+    <meta name="author" content="Benjamin Roberts">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Winky+Rough:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-therapidssplash.jpg" alt="The Rapids Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p class="address">Kimball, Alberta</p>
+            <p>177 Kimball River Road, Ste 1401</p>
+            <p>contact-us@therapids.com</p>
+            <p class="number">+1-555-555-5555</p>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.114094311442!2d-113.22949232455245!3d49.09192379975067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x536f26d7f8d6c4d9%3A0x89241851b9be500b!2sIncept%20Adventure%20Co.!5e0!3m2!1sen!2sca!4v1754148551117!5m2!1sen!2sca"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="meet">
+            <h2 class="meetour">Meet Our Team</h2>
+            <img class="stacy" src="images/stacy-andrews-small.webp" alt="Stacy Andrews">
+            <p class="andrews">Stacy Andrews: Adventure Planner Expert</p>
+            <img class="john" src="images/john-smith-small.webp" alt="John Smith">
+            <p class="smith">John Smith: Customer Support Expert</p>
+            <img class="ben" src="images/ben-roberts-small.webp" alt="Ben Roberts">
+            <p class="roberts">Ben Roberts: CEO, Adventure Junkie</p>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Send Us a Message</legend>
+                <div class="form-item-info">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullanme">
+                </div>
+                <div class="form-item-info">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <div class="form-item">
+                    <label>Purpose for the Message</label>
+                    <input type="radio" name="purpose" id="inquiry" value="inquiry"> General Inquiry
+                    <input type="radio" name="purpose" id="reservation" value="reservation"> Reservation Question
+                    <input type="radio" name="purpose" id="suggestion" value="suggestion"> Website Suggestion
+                </div>
+                <div class="form-item">
+                    <label for="pet"></label>
+                    <input type="checkbox" id="pet" name="pet"> Please subscribe me to the monthly newsletter
+                </div>
+                <div class="form-item">
+                    <label for="feedback">Message</label>
+                </div>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Please type message here"></textarea>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <p class="copy">&copy;2025 | The Rapids | Benjamin Roberts</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.webp" alt="Facebook Logo">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.webp" alt="Instagram Logo">
+            </a>
+            <a href="https://x.com/?lang=en">
+                <img src="images/x.webp" alt="X Logo and Link">
+            </a>
+        </nav>
+        <a class="wireframe" href="https://app.moqups.com/khREzSSEeP12sTNZXVn87aWznmr51qD0/view/page/ad12de680">Contact
+            Us Wireframe</a>
+    </footer>
+</body>
+
+</html>
