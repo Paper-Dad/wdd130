@@ -335,3 +335,97 @@ button:hover {
     color: var(--primary-color);
     font-size: xx-large;
 }
+
+.heint {
+    position: relative;
+    width: 100%;
+}
+
+
+.heint img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    position: absolute;
+}
+
+.events {
+    grid-column: 1 / 2;
+    align-self: baseline;
+    color: black;
+}
+
+.crash {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.relax {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.extreme {
+    grid-column: 1;
+    grid-row: 4;
+    height: 95%;
+}
+
+.splash {
+    grid-column: 2;
+    grid-row: 2;
+    color: black;
+    font-weight: bold;
+}
+
+.slow {
+    grid-column: 1;
+    grid-row: 3;
+    color: black;
+    font-weight: bold;
+}
+
+.dream {
+    grid-column: 2;
+    grid-row: 4;
+    color: black;
+    font-weight: bold;
+}
+
+.meet img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+}
+
+.news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.book {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.leftnews {
+    padding: 5px
+}
+
+.rightnews {
+    padding: 5px
+}
+
+.leftnews h2 {
+    text-align: center;
+}
+
+.rightnews h2 {
+    text-align: center;
+}
