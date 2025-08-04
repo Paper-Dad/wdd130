@@ -395,7 +395,7 @@ button:hover {
     font-weight: bold;
 }
 
-.meet img {
+.upevent img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -428,4 +428,13 @@ button:hover {
 
 .rightnews h2 {
     text-align: center;
+}
+
+.upevent {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 30% 30% 30%;
+    border: var(--primary-color) 2px solid;
+    background-color: var(--accent1-color);
 }
