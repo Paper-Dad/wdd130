@@ -481,7 +481,6 @@ button:hover {
 
 .upeven h2 {
     grid-column: 2;
-    grid-template-rows: 1;
     text-align: center;
     color: black;
 }
